@@ -1,0 +1,67 @@
+.arrayElement{
+    display: inline-block; 
+}
+.header{
+    background-color: cadetblue;
+    width: 100;
+    height: 15vh;
+}
+#bodyContainer{
+    width:100;
+    height: 85vh;
+    background-color: cornsilk;
+    padding-top: 30px;
+    text-align: center;
+}
+button{
+    background-color: transparent;
+    border: none;
+    color: #ffff;
+}
+
+#generateArray{
+    position: relative;
+    font-size: 20px;
+    font-family: monospace;
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 15px;
+}
+
+.separator {
+    position: absolute;
+    width: 5px;
+    height: 55px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: 20px;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+#arraySize {
+    font-size: 16px;
+    font-family: monospace;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.algorithmButton {
+    color: white;
+    font-size: 16px;
+    font-family: monospace;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#sort {
+    font-size: 16px;
+    font-family: monospace;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.selectForSwap{
+    background-color: 'red';
+}
